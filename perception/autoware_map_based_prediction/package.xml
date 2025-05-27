@@ -22,7 +22,7 @@
   <depend>autoware_motion_utils</depend>
   <depend>autoware_perception_msgs</depend>
   <depend>autoware_utils</depend>
-  <depend>glog</depend>
+  <depend>libgoogle-glog-dev</depend>
   <depend>rclcpp</depend>
   <depend>rclcpp_components</depend>
   <depend>tf2</depend>
