@@ -22,7 +22,7 @@
 
 #include <sensor_msgs/msg/camera_info.hpp>
 
-#include <image_geometry/pinhole_camera_model.h>
+#include <image_geometry/pinhole_camera_model.hpp>
 
 #include <memory>
 

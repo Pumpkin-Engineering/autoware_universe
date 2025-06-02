@@ -10,6 +10,8 @@ find_package(Boost REQUIRED)
 find_package(PCL REQUIRED)
 find_package(pcl_conversions REQUIRED)
 find_package(OpenMP)
+find_package(tf2_geometry_msgs REQUIRED)
+find_package(tf2_sensor_msgs REQUIRED)
 
 include_directories(
   include
@@ -47,6 +49,8 @@ ament_target_dependencies(${PROJECT_NAME}
   autoware_utils
   autoware_map_msgs
   nav_msgs
+  "tf2_geometry_msgs"
+  "tf2_sensor_msgs"
 )
 
 if(OPENMP_FOUND)

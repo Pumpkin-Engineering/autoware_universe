@@ -43,7 +43,7 @@
 #include "tier4_perception_msgs/msg/detected_object_with_feature.hpp"
 #include <sensor_msgs/msg/camera_info.hpp>
 
-#include <image_geometry/pinhole_camera_model.h>
+#include <image_geometry/pinhole_camera_model.hpp>
 #include <pcl/point_cloud.h>
 #include <pcl/point_types.h>
 #include <pcl_conversions/pcl_conversions.h>

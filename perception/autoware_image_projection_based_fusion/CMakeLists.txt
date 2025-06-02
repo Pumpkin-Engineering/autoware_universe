@@ -5,6 +5,7 @@ add_compile_options(-Wno-unknown-pragmas -fopenmp)
 
 find_package(autoware_cmake REQUIRED)
 find_package(OpenCV REQUIRED)
+#find_package(image_geometry REQUIRED)
 find_package(Eigen3 REQUIRED)
 autoware_package()
 
