@@ -32,6 +32,7 @@
   <depend>rclcpp</depend>
   <depend>rclcpp_components</depend>
   <depend>tier4_vehicle_msgs</depend>
+  <depend>ament_index_cpp</depend>
 
   <exec_depend>rclpy</exec_depend>
 
